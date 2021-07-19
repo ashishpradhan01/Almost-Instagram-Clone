@@ -1,0 +1,272 @@
+*, ::before, ::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Nav Bar */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 54px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.navbar-sidespacer{
+    display: flex;
+    height: 100%;
+    width: 70%;
+    justify-content: space-between;
+}
+
+
+.navbar-logo{
+    align-self: center;
+    margin-right: 10%;
+}
+
+.navbar-search{
+    width: 215px;
+    height: 28px;
+    align-self: center;
+    position: relative;
+    overflow: auto;
+}
+
+.navbar-search input{
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+}
+.navbar-search input::placeholder{
+    text-align: center;
+}
+
+.navbar-search input:focus{
+    outline: none;
+}
+
+
+.navbar-menu{
+    /* flex: 2; */
+    display: flex;
+}
+
+.navbar-menu > div{
+    display: flex;
+}
+.navbar-menu img{
+    height: 45%;
+    align-self: center;
+    cursor:pointer;
+}
+
+.navbar-menu div+div{
+    margin-left:20px
+}
+
+
+
+
+
+/* Home Page */
+
+.home_flex{
+    display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
+
+.container{
+    width: 70%;
+    display: flex;
+    /* border: 1px dashed rebeccapurple;s */
+}
+
+.post_row{
+    width: 60%;
+}
+
+.container-post{
+    height: fit-content;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    /* border: 1px dashed red; */
+    margin-bottom: 30px;
+}
+
+.post_header{
+    display: flex;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+.post_user_avatar{
+   margin-right: 10px;
+}
+
+.post_username{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    align-self: center;
+}
+
+.post_username > div{
+    height: fit-content;
+}
+
+
+.post_body {
+    width: 100%;
+}
+.post_image > img{
+    width: 100%;
+}
+
+.review-area{
+    padding: 8px
+}
+
+.review-icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-box1 > img{
+    margin-right: 15px;
+}
+
+.review-likes{
+    font-weight: 500;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.review-description > span{
+    font-weight: 500;
+    margin-right: 5px;
+}
+.review-description > p{
+    display: inline;
+}
+
+
+.users_comment_top2 {
+    margin-top: 8px;
+}
+
+.users_comment_top2 div+div{
+    margin-top: 5px;
+}
+.users_comment_top2 span{
+    font-weight: 500; 
+    margin-right: 5px;                                                                                             
+}
+.users_comment_top2 p{
+    display: inline;
+}
+
+
+.review-comment_box{
+    display: flex;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    justify-content: center;
+}
+
+.post_comment{
+    flex: 1;
+}
+
+.post_button{
+    font-weight: 500;
+    color: #0095F6;
+    height: 100%;
+}
+
+.post_emoji, .post_button{
+    height: 100%;
+    /* align-items: center; */
+    text-align: center;
+
+}
+
+
+.post_time{
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-size: 0.8rem;
+    color: rgb(182, 181, 181);
+}
+
+/* .review-comment_box textarea{
+    width: 100%;
+    border:none;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.review-comment_box textarea:focus{
+    outline: none;
+} */
+
+
+.review-comment_box  textarea {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    font-family: sans-serif;
+    padding: 10px;
+    border: none;
+  }
+  .review-comment_box  textarea:focus {
+    border: none;
+    outline: none;
+  }
+
+
+
+
+
+.container-sidebar{
+    width: 40%;
+    height: 300px;
+    /* border: 1px solid green; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
