@@ -3,6 +3,8 @@
 # dependencies
 /frontend/node_modules
 /.pnp
+/env
+/insta/__pycache__
 .pnp.js
 
 # testing
